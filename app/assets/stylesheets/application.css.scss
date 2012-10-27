@@ -11,7 +11,10 @@
  *= require_self
  *= require_tree .
  */
- 
+ @import "bootstrap";
+body { padding-top: 60px; }
+@import "bootstrap-responsive";
+
 .content {
   background-color: rgb(191,205,219);
   padding: 20px;
